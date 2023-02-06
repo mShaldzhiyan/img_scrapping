@@ -3,3 +3,7 @@ images
 no_person
 person
 scraping
+chromedriver.exe
+geckodriver.log
+chome-data
+backups
