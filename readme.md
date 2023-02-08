@@ -18,11 +18,12 @@ Conclusion:
     I was able to collect ~1500 images of person in clothes and ~400 images of clothes without a person.  
     'no_person' folder consists of images without humans.  
     'person' folder consists of images with humans.  
-    Some images without person were placed in person folder, but none of images with person were placed in no_person folder.  
+    Some images without person were placed in person folder, but none of images with person were placed in no_person folder.
+    Dataframe with metadata is inside df.pkl file.
   
 Extras:  
     Some pictures i scraped were not images (videos for example), so i wrote cleaner.ipynb that cleans that up with help of PIL library and places them in 'not_images' folder.  
-    I also wrote cleaner_keras.ipynb script, which utilises EfficientNetV2B3 pretrained on imagenet and finetuned on items previously parsed (all no_person items and ~50% of person items which i was sure contained humans) to scan 'person' folder and move suspicious items to folder named 'suspicious'.
+    I also wrote cleaner_keras.ipynb script, which utilises EfficientNetV2B3 pretrained on imagenet and finetuned on items previously parsed (all no_person items and ~50% of person items which i was sure contained humans) to scan 'person' folder and move suspicious items to folder named 'suspicious'. I uploaded finetuned model as 'cleaning_model.h5'
     Dataset i provided keeps both of this folders in folder '_extras'.
 
 # Part 2
