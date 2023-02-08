@@ -21,8 +21,9 @@ Conclusion:
     Some images without person were placed in person folder, but none of images with person were placed in no_person folder.  
   
 Extras:  
-    Some pictures i scraped were not images, so i wrote cleaner.ipynb that cleans that up with help of PIL library and places them in 'not_images' folder.  
-    I also wrote cleaner_keras.ipynb script, which utilises EfficientNetV2B3 pretrained on imagenet and finetuned on items previously parsed (all no_person items and ~50% of person items which i was sure contained humans) to scan 'person' folder and move suspicious items to folder named 'suspicious'.  
+    Some pictures i scraped were not images (videos for example), so i wrote cleaner.ipynb that cleans that up with help of PIL library and places them in 'not_images' folder.  
+    I also wrote cleaner_keras.ipynb script, which utilises EfficientNetV2B3 pretrained on imagenet and finetuned on items previously parsed (all no_person items and ~50% of person items which i was sure contained humans) to scan 'person' folder and move suspicious items to folder named 'suspicious'.
+    Dataset i provided keeps both of this folders in folder '_extras'.
 
 # Part 2
 
