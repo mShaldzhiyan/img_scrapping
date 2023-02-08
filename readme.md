@@ -2,7 +2,7 @@
 
 Task: scrape images of cloths and persons wearing cloths, place them in separate folders
 
-Main script: scapper_deep.ipynb
+Main script: **scapper_deep.ipynb**
 
 Functions:  
 
@@ -30,7 +30,7 @@ Extras:
 
 Task: use provided script to create masks of cloth items, create function that given the image of the cloth and the mask of the cloth, outputs the original image of the cloth with the background of the cloth in blue color
 
-Main script: mask.ipynb
+Main script: **mask.ipynb**
 
 Functions:
 
